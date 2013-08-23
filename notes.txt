@@ -1,0 +1,4 @@
+Chaque nouveau lien fait 8 requêtes à l'API REST, ça prend en tout 6s. C'est trop lent.
+Python pas asynchrone, testé plusieurs libs et rien ne marche.
+
+J'abandonne Python, et je vais coder un importeur en Java vers Neo4j qui créé une nouvelle DB (sans passer par l'API REST).

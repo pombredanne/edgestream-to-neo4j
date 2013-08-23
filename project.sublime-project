@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "/C/edgestreamToNeo"
+		}
+	],
+	"build_systems":
+	[
+	    {
+	    "name": "Run Tests",
+	    "selector": "source.python",
+	    "encoding": "cp1252",
+	    "cmd": ["/C/Python27/python.exe", "manage.py", "test"]
+	    }
+	]
+}

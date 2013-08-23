@@ -1,0 +1,1 @@
+java -server -Xmx4G -jar batch-import-jar-with-dependencies.jar graph.db nodes.csv rels.csv
